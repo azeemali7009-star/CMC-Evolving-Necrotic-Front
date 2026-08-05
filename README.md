@@ -1,5 +1,7 @@
 # CMC Evolving Necrotic Front
 
+[![Tests](https://github.com/azeemali7009-star/CMC-Evolving-Necrotic-Front/actions/workflows/tests.yml/badge.svg)](https://github.com/azeemali7009-star/CMC-Evolving-Necrotic-Front/actions/workflows/tests.yml)
+
 Reproducible Python implementation of an evolving compartment-complex
 formulation for forecasting growth-inhibited and necrotic fronts in
 multicellular tumour spheroids.
