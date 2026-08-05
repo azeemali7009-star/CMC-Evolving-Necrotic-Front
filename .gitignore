@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Generated analysis outputs
+results/
+figures/
+
+# Article and submission material
+manuscript/
+supplementary/
+cover_letters/
+*.tex
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Original Murphy data: obtain from the authors' repository
+data/WM793b_outer.csv
+data/WM793b_inhibited.csv
+data/WM793b_necrotic.csv
+data/raw/
+data/*.xlsx
+
+# Internal package records
+MANIFEST.txt
+SHA256SUMS.txt
+PACKAGE_CONTENTS.md
+REVISION_NOTES_RESULTS.md
+SUBMISSION_READINESS.md
+
+# Editors and temporary files
+*.swp
+*.swo
+*~

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated research article."
+title: "CMC Evolving Necrotic Front"
+authors:
+  - family-names: "Azeem"
+    given-names: "Muhammad"
+version: "1.0.0"
+date-released: "2026-08-05"
+repository-code: "https://github.com/azeemali7009-star/CMC-Evolving-Necrotic-Front"
+license: "MIT"
