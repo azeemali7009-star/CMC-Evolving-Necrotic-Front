@@ -84,3 +84,21 @@ decision-support system, or validated treatment-selection system.
 ## Citation
 
 Citation metadata are provided in `CITATION.cff`.
+
+## Additional leakage-controlled early-origin audit (revision)
+
+After obtaining the longitudinal data, run:
+
+```bash
+make early-audit
+```
+
+This writes `results/early_origin_one_step_metrics.csv` and
+`results/early_origin_one_step_cases.csv`. For each cutoff (6, 9, 12, 15,
+18 days by default), models are trained **only on transitions whose target
+was observed by that cutoff**. They then predict the *next observed step*
+from that cutoff. Empty or undersized splits are marked `NOT_EVALUATED`.
+This is **not** an early-to-day-24 rollout, nor an independent-spheroid
+validation: the source observations are aggregated by condition and day.
+No performance claim should be made without executing this analysis on
+retrieved source data. The treatment dataset remains descriptive only.
