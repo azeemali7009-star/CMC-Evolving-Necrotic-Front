@@ -13,3 +13,7 @@ check:
 
 clean-generated:
 	rm -rf results figures
+
+.PHONY: early-audit
+early-audit: data
+	PYTHONPATH=src python experiments/early_horizon_audit.py
